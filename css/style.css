@@ -1,0 +1,153 @@
+body {
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html,body{
+    height:100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px !important; 
+}
+
+.background {
+    overflow-y: auto;
+}
+
+.header {
+    overflow-y: auto;
+}
+
+.header h1 {
+    float:left;
+    padding: 2px;
+    overflow-x: auto;
+}
+
+content-login {
+    height: 600px;
+}
+
+a:link, a:visited, a:hover{  
+    text-decoration:none;  
+}
+
+.combo {
+    background-color: aliceblue;
+    width: 75px;
+	color: #707070;
+	border-width:0;
+}
+
+.combo:focus {
+    background-color: white;
+}
+
+.combo_grande {
+    background-color: aliceblue;
+    width: 120px;
+	color: #707070;
+	border-width:0;
+}
+
+.combo_grande:focus {
+    background-color: white;
+}
+
+.input {
+    border: 0px solid #444444;
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/editar.jpg");
+    background-size: 30px;
+    color: black; 
+    padding-left: 0px; 
+    font-size: 10px;
+}
+
+.input:focus {    
+    outline: 0px;
+}
+
+.descripcion:focus {
+    width: 200px;
+    background-color: white;
+}
+
+.libros {
+    height: 120px;
+    margin: 20px 0px;
+    width: auto;
+}
+
+.libros p {
+    margin: 10px 20px;
+}
+.libros h4 {
+    margin-top: 0px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.imagen_libro {
+    margin: 10px;
+    width: 100px; 
+    height: 120px;
+}
+
+.imagen_libro_detalles {
+    width: 200px; 
+    height: 250px;
+    padding: 20px;
+}
+
+.comentario {
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+    border: solid black 1px;
+}
+
+.libro_detalles p {
+    padding: 10px 20px;
+}
+
+.fecha {
+    width: 150px;
+}
+
+.genero {
+    width: 150px;
+}
+
+.autores {
+    width: 700px;
+}
+
+.chart_div{
+    width: 400px;
+    height: 280px;
+    margin: 0;
+    
+}
+
+.chart_div2{
+    width: 400px;
+    height: 280px;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+}
